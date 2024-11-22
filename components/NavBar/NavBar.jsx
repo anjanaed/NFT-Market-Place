@@ -76,7 +76,7 @@ const openProfile=()=>{
           <div className={Style.navbar_container_left_box_input}>
             <div className={Style.navbar_container_left_box_input_box}>
               <input type='text' placeholder='Search NFT'/>
-              <BsSearch className={Style.search_con}/>
+              <BsSearch className={Style.search_icon}/>
             </div>
           </div>
         </div>
