@@ -56,3 +56,17 @@
     border-radius: 50%;
     background-color: aqua;
 }
+
+@media screen and (max-width:35rem) {
+    .notification{
+        width:20rem;
+        left:-15rem;
+    }
+    .notification_box{
+        padding: .3rem;
+    }
+    .notification_box p{
+        font-size: 12px;
+    }
+    
+}
