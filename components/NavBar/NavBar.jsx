@@ -102,7 +102,7 @@ const openProfile=()=>{
               {notification && <Notification />}
               </div>
               <div className={Style.navbar_container_right_button}>
-                <Button btnText="Create"/>
+                <Button btnName="Create" handleClick={()=>{}}/>
           </div>
           <div className={Style.navbar_container_right_profile_box}>
             <div className={Style.navbar_container_right_profile}>
@@ -119,7 +119,7 @@ const openProfile=()=>{
         </div>
       </div>
       {openSideMenu && (
-        <div className={Style.SideBar}>
+        <div className={Style.sideBar}>
           <SideBar setOpenSideMenu={setOpenSideMenu}/>
         </div>
       )}
